@@ -1,0 +1,9 @@
+{
+    "usingComponents": {
+      "mp-loading": "../../miniprogram_npm/weui-miniprogram/loading/loading",
+      "mp-dialog": "../../miniprogram_npm/weui-miniprogram/dialog/dialog"
+    },
+  "navigationBarBackgroundColor":"#00bbff",
+  "navigationBarTextStyle":"black",
+  "navigationBarTitleText":"首页"
+}

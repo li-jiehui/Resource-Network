@@ -1,0 +1,6 @@
+<!--pages/lists/lists.wxml-->
+<view>
+  <view wx:for="{{images[cid-1]}}" wx:key="{{index}}" class="images">
+    <image src="{{item.images}}"></image>
+  </view>
+</view>

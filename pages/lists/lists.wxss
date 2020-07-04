@@ -1,0 +1,10 @@
+/* pages/lists/lists.wxss */
+.images{
+  width: 100%;
+
+}
+.images image{
+  width: 100%;
+  height: 380rpx;
+  filter: blur(20rpx);
+}

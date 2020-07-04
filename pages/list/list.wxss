@@ -1,0 +1,43 @@
+/* pages/in-list/list.wxss */
+.txt_xx {
+  width: 100%;
+}
+.txt_h1 {
+  font-size: 50rpx;
+  padding: 20rpx;
+}
+.txt_img {
+  width: 100%;
+  height: 500rpx;
+  margin: 20rpx 0;
+}
+.txt_text {
+  word-wrap: break-word;
+  text-indent: 2rem;
+  padding: 20rpx;
+}
+.txt_text2 {
+  margin-top: 25rpx;
+  word-wrap: break-word;
+  text-indent: 2rem;
+  padding: 20rpx;
+}
+/* 小图标 */
+.lists{
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0 36rpx
+}
+.lists image{
+  width: 40rpx;
+  height: 40rpx;
+  padding: 10rpx
+}
+.list_icon{
+  margin: 0 auto;
+}
+.day{
+  color: #999;
+  text-align: center;
+  /* font-size: 30rpx */
+}

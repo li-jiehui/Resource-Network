@@ -1,0 +1,7 @@
+<!--logs.wxml-->
+<view class="container-list">
+  <navigator url="../lists/lists?cid={{item.id}}" wx:for="{{lists}}" wx:key="{{logs}}" class="list">
+    <image src="{{item.images}}"></image>
+    <view class="list_txt">{{item.name}}</view>
+  </navigator>
+</view>

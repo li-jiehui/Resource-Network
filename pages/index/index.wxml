@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<!-- 轮播图 -->
+<swiper class="homeswiper" indicator-dots="ture" indicator-active-color="red" autoplay="ture" interval="3000" circular="ture">
+  <swiper-item wx:for="{{homeswiper}}" wx:key="index">
+    <image src="{{item.image}}"></image>
+  </swiper-item>
+</swiper>
+<!-- 搜索框 -->
+<view class="search">
+  <input class="search_input" type="text" placeholder="搜索我感兴趣的项目..."       confirm-type="search" :value="{{searchtxt}}"></input>
+  <image wx:for="{{search}}" wx:key="{{index}}" src="{{item.search}}" bindtap="search"/>
+</view>
+<view class="hr"></view>
+<!-- 内容发布 -->
+<view class="container">
+  <navigator url="../list/list?cid={{item.id}}" class="single" wx:for="{{categories}}" wx:key="item.id">
+    <image src="{{item.icon}}" class="single_img"/>
+    <view class="wrap">
+      <view class="text_title">{{item.name}}</view>
+      <!-- 小图标 -->
+      <view class="lists">
+        <view class="list" wx:for="{{list}}" wx:key="{{index}}">
+          <image src="{{item.icons}}"></image>
+          <text>{{item.day}}</text>
+        </view>
+      </view>
+    </view>
+  </navigator>
+</view> 
+
+<view class="search_txt" style="display:{{dialogShow}}">{{dialogtxt}}</view>
+<mp-loading type="circle" show="{{show}}"></mp-loading> 
+<mp-dialog title="内容为空" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}"></mp-dialog>
