@@ -11,7 +11,7 @@ Page({
   },
   images(){
     wx.request({
-      url: 'http://58.87.108.188:3000/static/db.json',
+      url: 'http://127.0.0.1:3000/static/db.json',
       success: res=>{
         // console.log(res.data.listsim)
         this.setData({

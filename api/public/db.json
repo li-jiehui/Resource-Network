@@ -1,0 +1,153 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "image": "http://cdn.xuansiwei.com/hyaci931/1573116452080/9be751a4786690fbc45ea9bc0d3fa955.jpg?x-oss-process=style/small"
+    },
+    {
+      "id": 2,
+      "image": "http://cdn.xuansiwei.com/hyaci931/1573116452080/9be751a4786690fbc45ea9bc0d3fa955.jpg?x-oss-process=style/small"
+    },
+    {
+      "id":3,
+      "image":"http://cdn.xuansiwei.com/hyaci931/1573116452080/9be751a4786690fbc45ea9bc0d3fa955.jpg?x-oss-process=style/small"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "接受社会的毒打吧!",
+      "icon": "http://p1.pstatp.com/large/pgc-image/b2496b85a4d345fab55f3d9a5b8efe75"
+    },
+    {
+      "id": 2,
+      "name": "Java 库被曝存“高危”...",
+      "icon": "http://p1.pstatp.com/large/pgc-image/S0YNn6UIkXKwob"
+    },
+    {
+      "id": 3,
+      "name": "LPL选手身价排行榜出炉",
+      "icon": "http://p1.pstatp.com/large/pgc-image/6f1fece4d50244b3a389ad3329cdef49"
+    },
+    {
+      "id": 4,
+      "name": "是什么偷走了成年玩家",
+      "icon": "http://p1.pstatp.com/large/pgc-image/25e822b2efcd4399af07f4ce2dbe1791"
+    },
+    {
+      "id": 5,
+      "name": "街机游戏《街头霸王》",
+      "icon": "http://p3.pstatp.com/large/pgc-image/2ae1c14ea0da445aa7834f9605a00cfd"
+    },
+    {
+      "id": 6,
+      "name": "天才少年XDD组",
+      "icon": "http://p1.pstatp.com/large/pgc-image/3c26fabbce3c45e189180c1eb3a1643d"
+    },
+    {
+      "id": 7,
+      "name": "knight商店页面“揭秘”",
+      "icon": "http://p1.pstatp.com/large/pgc-image/S0Ynrwg20YLZcn"
+    },
+    {
+      "id": 8,
+      "name": "游戏不该触碰的“道德”",
+      "icon": "//p1.pstatp.com/list/190x124/pgc-image/b3d46c8a48c94a60b963e8de4af5316d"
+    },
+    {
+      "id": 9,
+      "name": "电脑配置低又何妨，这..",
+      "icon": "http://p3.pstatp.com/large/pgc-image/5b9e57cab9b74517a1168709fc9eb84c"
+    }
+  ],
+  "search":[{
+    "id":1,"search":"http://localhost:3000/static/tabs/search.png"
+  }],
+  "list":[
+    [{
+      "id": 1,
+      "h1":"接受社会的毒打吧!",
+      "text":"今年3月，许某关注了一名直播平台主播，并加入了这位主播的粉丝群。 4月13日，许某从江苏南通坐车到上海找工作，他想起自己关注的主播前一天曾在上海直播，之后入住了北外滩的一家酒店。当晚7点半左右，许某在粉丝群内发布了一张百度地图定位截图，图上显示他的定位就在主播入住的酒店附近。",
+      "text2":"今年3月，许某关注了一名直播平台主播，并加入了这位主播的粉丝群。 4月13日，许某从江苏南通坐车到上海找工作，他想起自己关注的主播前一天曾在上海直播，之后入住了北外滩的一家酒店。当晚7点半左右，许某在粉丝群内发布了一张百度地图定位截图，图上显示他的定位就在主播入住的酒店附近。",
+      "img":["http://p1.pstatp.com/large/pgc-image/b2496b85a4d345fab55f3d9a5b8efe75"]
+    }],
+    [{
+      "id": 2,
+      "h1":"Java 库 fastjson 被曝存“高危”远程代码执行漏洞",
+      "text":" 发布于 3 月底，日前某安全运营中心监测到，fastjson <= 1.2.68 版本存在远程代码执行漏洞，漏洞被利用可直接获取服务器权限。360CERT 将漏洞等级定为“高危”。该远程代码执行漏洞原理是，autotype 开关的限制可以被绕过，链式反序列化攻击者可以通过精心构造反序列化利用链，最终达成远程命令执行。此漏洞本身无法绕过 fastjson 的黑名单限制，需要配合不在黑名单中的反序列化利用链才能完成完整的漏洞利用。",
+      "text2":"目前 fastjson 官方还未发布修复版本，使用者可以升级到 fastjson 1.2.68 版本,并通过配置,ParserConfig.getGlobalInstance().setSafeMode(true) 参数开启 SafeMode 防护攻击，不过需要注意的是 safeMode 会完全禁用 autotype，无视白名单，需要评估对业务影响的。",
+      "img":["http://p1.pstatp.com/large/pgc-image/S0YNn6UIkXKwob"]
+    }],
+    [{
+      "id": 3,
+      "h1":"LPL选手身价排行榜出炉，Uzi蝉联榜首 是Jacklove五倍",
+      "text":"影响身价的最核心因素有两点，其一是选手个人的硬实力，能为战队带来显著的增强，参考JKL在加入TES之后的巨大变化，所以也有人说阿水的天秀操作名为《身价的证明》；其二就是选手的知名度，加入战队之后能带来巨大的粉丝量，战队的人气与知名度迅速提升，参考Uzi早期在皇族和OMG之间的转会效果，那个男人去哪里，光环就照耀到哪里，也被称之为“明星选手”。而排名第一的Uzi，绝对是当之无愧的实力型明星选手，他的名誉和荣耀显而易见，为RNG贡献的团队Carry力量也是有目共睹，所以Uzi以5000万身价位居第一。",
+      "text2":"Doinb第二名也在情理之中，毕竟冠军中单的名誉和实力都不逊色，再加上性格活跃跳脱，直播期间深受水友粉丝的爱戴，所以自身热度本来就很高。Zoom公爵则是实力型的代表，JDG上路稳定C点，春季赛京东夺冠之后Zoom的身价也是水涨船高，中单牙膏位居第五应该也是这个原因。",
+      "img":["http://p1.pstatp.com/large/pgc-image/6f1fece4d50244b3a389ad3329cdef49"]
+    }],
+    [{
+      "id": 4,
+      "h1":"是什么偷走了成年玩家的游戏激情？",
+      "text":"尽管游戏界从未有过如同现在一般的盛况，但对于一路在游戏陪伴下走过来的老玩家来说，游戏却也从未如同现在一般陌生。曾经如同吃饭喝水一般重要的爱好，如今似乎在逐渐淡出自己的生活；曾经以为生活中必不可少的部分，如今却有了一丝空虚与厌倦。就笔者个人而言，如今很难静得下心来去尝试一款游戏，尤其是玩法丰富、世界辽阔的3A大作，我变得更倾向于尝试一些内容简单但相对来说充满乐趣的独立游戏，比如刚刚通关的《空洞骑士》，即使它是一款已经有些年份的老游戏。",
+      "text2":"这是一个很明显的变化，犹记得大学时候对这类游戏颇有些嗤之以鼻，崇尚的是战神黑魂一类的前沿大作，总觉得这才是真正的游戏玩家该拥有的东西。但现在不一样了。随着年龄的增长很多东西会变得和自己当初想的不太一样，而这其中就包括对游戏的态度。因为种种原因我们会开始慢慢地远离游戏。当然并不是指某一天早上醒来突然觉得电子游戏越来越无聊了，它是一个缓慢的过程，即使很多人都没有发现，但它确实存在。",
+      "img":["http://p1.pstatp.com/large/pgc-image/25e822b2efcd4399af07f4ce2dbe1791"]
+    }],
+    [{
+      "id": 5,
+      "h1":"街机游戏《街头霸王》春丽原型赏析，原来她的背后还有这么多故事",
+      "text":"说到街机游戏中的女神，估计绝大部分玩家第一时间想到的应该就是春丽、不知火舞、伊吕波、莫莉卡、菲莉西亚、夏尔米、麻宫雅典娜、莉莉丝、温妮莎、安琪儿、八条一美、绫音、女天狗这些比较经典的人物吧！毕竟这些女性角色在格斗游戏中都有一定的地位，所表现出来的每一个动作和姿势都是有来历的，散发着独有的魅力。",
+      "text2":"从《街头霸王2》开始，春丽一直都是格斗游戏中最具代表性的人物之一。无论是街霸什么版本的宣传片和动画电影，都是以春丽的展示为主。春丽不仅仅在正统作品表现比较出色，在CAPCOM其他外传类游戏中也拥有非常崇高的地位。春丽无论在什么游戏中出现，都是玩家们关注的焦点。甚至玩家们只需要看看春丽的建模有没有崩，就能知道游戏的画质怎么样！",
+      "img":["http://p3.pstatp.com/large/pgc-image/2ae1c14ea0da445aa7834f9605a00cfd"]
+    }],
+    [{
+      "id": 6,
+      "h1":"天才少年XDD组建“PeRo”战队，队内成员名单曝光",
+      "text":"5月29日，绝地求生天才少年小叮当时隔半年后终于复播，鉴于其在赛场上的精彩表现，比起直播，PCL赛区的观众们更关注这位天才少年今后的职业道路，他会去到哪里，又会以怎样的方式重新亮相赛场？",
+      "text2":"在企鹅电竞即将举办的EPC挑战赛中，网友们似乎发现了一些蛛丝马迹，这次的EPC邀请了32支顶尖队伍，其中A组出现了一个非常陌生的队伍，这个队伍叫做PeRO，这个战队一出现，其实小伙伴们第一时间就认定了这个战队为小叮当自建的战队，因为这个战队LOGO就有小叮当多来A梦的风格，蓝白配色。",
+      "img":["http://p1.pstatp.com/large/pgc-image/3c26fabbce3c45e189180c1eb3a1643d"]
+    }],
+    [{
+      "id": 7,
+      "h1":"knight商店页面“揭秘”：从头到尾都是杀人书",
+      "text":"伴随季中杯决赛第一局比赛以TES战队胜利告终，LOLesports在推特上分享了一张图片—— “knight选手商店页面大揭秘！”",
+      "text2":"其中图上的“初始装备”、“后续装备”、“成型装备”等都只有一个选择，就是杀人书。（当然真实的商店页面不会是这个样子，本图调侃居多）作为今年季中杯上面最喜欢“杀人书”的选手，knight在本次洲际赛经常掏出这件装备，且效果绝佳。",
+      "img":["http://p1.pstatp.com/large/pgc-image/S0Ynrwg20YLZcn"]
+    }],
+    [{
+      "id": 8,
+      "h1":"游戏不该触碰的“道德”底线在哪里？",
+      "text":"对玩家来说，有色与暴力已经有点见怪不怪。相比起来，世上还有些更惹火、更敏感的题材，这些题材已经触碰到了某些人的“道德底线”。一旦处理不好非常容易一石激起千尺浪，就连跑在时代尖端的游戏，一般都会对此等题材避之则吉。",
+      "text2":"不论如何努力，天灾及人祸总是无法远离人类，在普遍道德心下，大家都会对在灾祸中遭遇不幸的人抱有哀悼之情。亦因如此，只要有点脑筋，大概不会有哪家公司企业特意去幸灾乐祸、以不幸事件作为娱乐大众的点子。可惜的是，虽然不会明知故犯，但的确有游戏因为对这类题材不够敏感而犯上此等低级错误。",
+      "img":["//p1.pstatp.com/list/190x124/pgc-image/b3d46c8a48c94a60b963e8de4af5316d"]
+    }],
+    [{
+      "id": 9,
+      "h1":"电脑配置低又何妨，这些游戏照样可以玩的流畅！",
+      "text":"电脑如今已经成为了各行各业上班工作不可或缺的产品，生活之中随处可见。大部分玩家工作之时都在使用公司标配的电脑，除了一些对配置要求很高的工作以外，这些主机无外乎都是配置偏低或者刚刚好，基本上只能应付好工作，用它在闲暇时刻玩会游戏简直就是天方夜谭。不过今天小编讲要给大家推荐几款对电脑配置要求很低，可玩性却一点不低的游戏，让更多的人能够在工作之余很好的放松自己，下面一起来看看吧。",
+      "text2":"《使命召唤4》时整个《使命召唤》系列里面具有开创性意义的巅峰作品，无论是对于战争游戏的推动还是对于日后其他作品的发展都产生了非凡的影响。还记得小编当时是在朋友的推荐下试玩了下这款游戏，谁曾想这一玩便入坑了。至今我也忘不掉在船上枪战时船摇摇欲醉的那种真实感，与其说是是一款游戏，不如说是一部精心制作的好莱坞大片。喜欢枪战游戏的小伙伴千万不要错过它，绝对不会让你们失望的。",
+      "img":["http://p3.pstatp.com/large/pgc-image/5b9e57cab9b74517a1168709fc9eb84c"]
+    }]
+  ],
+  "images":[
+    {"icons":"http://localhost:3000/static/tabs/时间.png"},
+    {"icons":"http://localhost:3000/static/tabs/消息.png"},
+    {"icons":"http://localhost:3000/static/tabs/浏览.png"},
+    {"icons":"http://localhost:3000/static/tabs/点赞.png"}
+  ],
+  "lists":[
+    { "images": "http://localhost:3000/static/tabs/糖果.png", "name": "糖果", "id": 1 },
+    { "images": "http://localhost:3000/static/tabs/空投.png", "name": "空投", "id": 2 },
+    { "images": "http://localhost:3000/static/tabs/变现.png", "name": "变现", "id": 3 },
+    { "images": "http://localhost:3000/static/tabs/电报.png", "name": "电报", "id": 4 },
+    { "images": "http://localhost:3000/static/tabs/阅读,文章.png", "name": "资讯", "id": 5 },
+    { "images": "http://localhost:3000/static/tabs/小黑屋.png", "name": "小黑屋", "id": 6 }
+  ],
+  "listsim":[
+    [{ "images": "http://localhost:3000/static/tabs/糖果.png", "name": "", "id": 1 }],
+    [{ "images": "http://localhost:3000/static/tabs/空投.png", "name": "", "id": 2 }],
+    [{ "images": "http://localhost:3000/static/tabs/变现.png", "name": "", "id": 3 }],
+    [{ "images": "http://localhost:3000/static/tabs/电报.png", "name": "", "id": 4 }],
+    [{ "images": "http://localhost:3000/static/tabs/阅读,文章.png", "name": "", "id": 5 }],
+    [{ "images": "http://localhost:3000/static/tabs/小黑屋.png", "name": "", "id": 6 }]
+  ]
+}

@@ -18,7 +18,7 @@ Page({
   },
   getslides(){
     wx.request({
-      url: 'http://58.87.108.188:3000/static/db.json',
+      url: 'http://127.0.0.1:3000/static/db.json',
       success: res => {
         // console.log(res)
 
@@ -29,7 +29,8 @@ Page({
           list: res.data.images,
           search: res.data.search
         })
-        // console.log(res.data.search)
+        console.log(res.data.search)
+        console.log(res.data.images)
       }
     })
   },

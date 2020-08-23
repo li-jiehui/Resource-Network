@@ -1,9 +1,9 @@
 <!--pages/in-list/list.wxml-->
 <view class="txt_xx">
-  <view wx:for="{{xianxiye[cid-1]}}" wx:key="{{imdex}}">
+  <view wx:for="{{xianxiye[cid-1]}}" wx:key="{{index}}">
     <view class="txt_h1">{{item.h1}}</view>
     <!-- 小图标 -->
-    <view class="lists" wx:for="{{lists}}" wx:key="{{index}}">
+    <view class="lists" wx:for="{{lists}}" wx:key="index">
       <view class="list_icon">
         <image src="{{item.icons}}" />
       </view>
